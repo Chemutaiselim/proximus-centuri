@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         Built in Layouts are contained in an android class i.e. android.R.layout
          */
 
+
         val dm= DataManager()
         val adapterCourses=ArrayAdapter<CourseInfo>(this,
                 android.R.layout.simple_spinner_item,
